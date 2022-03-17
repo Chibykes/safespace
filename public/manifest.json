@@ -1,0 +1,11 @@
+{
+  "short_name": "Safespace",
+  "name": "Safespace",
+  "description": "",
+  "icons": [
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#47B685",
+  "background_color": "#ffffff"
+}

@@ -3,6 +3,10 @@
 @tailwind utilities; */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
+*{
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Poppins', 'Segoe UI', 'Roboto', 'Oxygen',
@@ -25,6 +29,7 @@ code {
   background: linear-gradient(135deg, #31f3b2, #2dd4a2) !important;
 }
 
-a.active{
-  @apply bg-main-color text-white;
+div.pill.active{
+  background: #871bff!important;
+  color: #fff!important;
 }
